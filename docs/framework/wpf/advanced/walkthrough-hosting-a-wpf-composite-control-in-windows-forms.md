@@ -47,15 +47,7 @@ You need Visual Studio to complete this walkthrough.
   
 6. In Solution Explorer, rename `UserControl1` to `MyControl1`.  
   
- Your project should have references to the following system DLLs. If any of these DLLs are not included by default, add them to your project.  
-  
-- PresentationCore  
-  
-- PresentationFramework  
-  
-- System  
-  
-- WindowsBase  
+
   
 ### Creating the User Interface  
  The [!INCLUDE[TLA#tla_ui](../../../../includes/tlasharptla-ui-md.md)] for the composite control is implemented with [!INCLUDE[TLA#tla_xaml](../../../../includes/tlasharptla-xaml-md.md)]. The composite control [!INCLUDE[TLA2#tla_ui](../../../../includes/tla2sharptla-ui-md.md)] consists of five <xref:System.Windows.Controls.TextBox> elements. Each <xref:System.Windows.Controls.TextBox> element has an associated <xref:System.Windows.Controls.TextBlock> element that serves as a label. There are two <xref:System.Windows.Controls.Button> elements at the bottom, **OK** and **Cancel**. When the user clicks either button, the control raises a custom event to return the information to the host.  
